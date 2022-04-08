@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 @layer components {
-  .badge {
-    @apply bg-blue-400 px-5 py-2 rounded-full text-white hover:bg-blue-600;
+  .nav-link {
+    @apply py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition delay-200;
   }
 }
