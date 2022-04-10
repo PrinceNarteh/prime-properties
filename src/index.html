@@ -40,7 +40,7 @@
     </nav>
 
     <!-- SITE BANNER -->
-    <main class="px-4 mt-10 md:mt-16">
+    <main class="px-10 mt-10 md:mt-16">
       <div class="sm:text-center lg:text-left">
         <h1
           class="xs:text-3xl sm:text-5xl md:text-6xl text-4xl font-extrabold tracking-tight"
@@ -75,27 +75,85 @@
       <h2 class="text-3xl text-gray-500 mb-2">Recent Properties</h2>
     </div>
 
-    <!-- CARD SECTION -->
-    <div>
-      <div>
-        <img src="" alt="" />
-        <div>
-          <h3>Orchid Villa</h3>
-          <p>
+    <!-- CARDS SECTION -->
+    <div class="p-10 grid sm:grid-cols-1 md:grid-cols-3 gap-5">
+      <!-- CARD -->
+      <div class="rounded-lg shadow-lg overflow-hidden">
+        <img class="w-full" src="../public/images/image-1.jpg" alt="" />
+        <div class="p-5">
+          <div class="flex flex-wrap items-center justify-between">
+            <h3 class="text-xl font-bold my-2">Orchid Villa</h3>
+            <span class="text-green-400 font-bold text-lg"
+              >&cent;4,500,000</span
+            >
+          </div>
+          <p class="text-gray-500 text-base mt-3">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
-            voluptatibus enim vero alias harum, quidem nobis ipsam quia
-            quibusdam aut rerum assumenda.
+            voluptatibus enim vero alias harum.
           </p>
+          <div class="mt-10 flex flex-wrap">
+            <span class="badge">7 Beds</span>
+            <span class="badge">7 Baths</span>
+          </div>
+          <div class="mt-5 flex justify-center">
+            <button
+              class="bg-green-500 text-white font-bold px-3 py-1 rounded-full w-80"
+            >
+              View Property
+            </button>
+          </div>
         </div>
-        <div>
-          <span>&cent;450000</span>
+      </div>
+
+      <!-- CARD -->
+      <div class="rounded-lg shadow-lg overflow-hidden">
+        <img class="w-full" src="../public/images/image-2.jpg" alt="" />
+        <div class="p-5">
+          <div class="flex flex-wrap items-center justify-between">
+            <h3 class="text-xl font-bold my-2">577 Gracia</h3>
+            <span class="text-green-400 font-bold text-lg">&cent;450000</span>
+          </div>
+          <p class="text-gray-500 text-base mt-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
+            voluptatibus enim vero alias harum.
+          </p>
+          <div class="mt-10 flex flex-wrap">
+            <span class="badge">7 Beds</span>
+            <span class="badge">7 Baths</span>
+          </div>
+          <div class="mt-5 flex justify-center">
+            <button
+              class="bg-green-500 text-white font-bold px-3 py-1 rounded-full w-80"
+            >
+              View Property
+            </button>
+          </div>
         </div>
-        <div>
-          <span>7 Beds</span>
-          <span>7 Baths</span>
-        </div>
-        <div>
-          <button>View Property</button>
+      </div>
+
+      <!-- CARD -->
+      <div class="rounded-lg shadow-lg overflow-hidden">
+        <img class="w-full" src="../public/images/image-3.jpg" alt="" />
+        <div class="p-5">
+          <div class="flex flex-wrap items-center justify-between">
+            <h3 class="text-xl font-bold my-2">Nexa Epitome</h3>
+            <span class="text-green-400 font-bold text-lg">&cent;450000</span>
+          </div>
+          <p class="text-gray-500 text-base mt-3">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto
+            voluptatibus enim vero alias harum.
+          </p>
+          <div class="mt-10 flex flex-wrap">
+            <span class="badge">7 Beds</span>
+            <span class="badge">7 Baths</span>
+          </div>
+          <div class="mt-5 flex justify-center">
+            <button
+              class="bg-green-500 text-white font-bold px-3 py-1 rounded-full w-80"
+            >
+              View Property
+            </button>
+          </div>
         </div>
       </div>
     </div>
