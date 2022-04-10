@@ -10,4 +10,16 @@
   .badge {
     @apply bg-gray-200 text-sm font-semibold text-gray-700 rounded-full px-3 py-1 mx-2 my-1;
   }
+
+  .label {
+    @apply block text-xs text-gray-700 font-bold uppercase mb-2 tracking-wider;
+  }
+
+  .form-group {
+    @apply w-full md:w-1/2 px-3 mb-6 md:mb-0;
+  }
+
+  .form-control {
+    @apply block py-3 px-4 w-full rounded border border-green-500 text-gray-700 outline-none;
+  }
 }
